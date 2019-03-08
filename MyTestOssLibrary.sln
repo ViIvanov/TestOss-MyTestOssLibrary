@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28705.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTestOssLibrary", "MyTestOssLibrary\MyTestOssLibrary.csproj", "{7C8CDF7B-B85A-4708-902F-78B366ECFAEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTestOssLibrary.UnitTests", "MyTestOssLibrary.UnitTests\MyTestOssLibrary.UnitTests.csproj", "{474BD39A-3203-4E48-8AF6-65F87E5D5E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{1A3A0B5B-9F0C-4C03-9E45-C25CE61DDEE8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8CDF7B-B85A-4708-902F-78B366ECFAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8CDF7B-B85A-4708-902F-78B366ECFAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8CDF7B-B85A-4708-902F-78B366ECFAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8CDF7B-B85A-4708-902F-78B366ECFAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474BD39A-3203-4E48-8AF6-65F87E5D5E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474BD39A-3203-4E48-8AF6-65F87E5D5E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474BD39A-3203-4E48-8AF6-65F87E5D5E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474BD39A-3203-4E48-8AF6-65F87E5D5E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040C3C2B-E074-4011-8FD3-FF077A5C0FD6}
+	EndGlobalSection
+EndGlobal
