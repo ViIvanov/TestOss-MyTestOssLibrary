@@ -8,4 +8,31 @@
     <AssemblyOriginatorKeyFile>$(SolutionDir)Strong Name Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Authors>ViIvanov</Authors>
+    <PackageId>ViIvanov.MyTestOssLibrary</PackageId>
+    <Description>Library for understanding "Open-source library guidance", https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/index</Description>
+    <Copyright>Copyright (c) 2019 Viacheslav Ivanov</Copyright>
+    <Version>1.0.0-start</Version>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Test</PackageTags>
+    <PackageReleaseNotes>1.0.0 - started</PackageReleaseNotes>
+    <Product>MyTestOssLibrary</Product>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
 </Project>
