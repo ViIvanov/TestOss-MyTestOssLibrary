@@ -18,7 +18,7 @@
     <Authors>ViIvanov</Authors>
     <PackageId>ViIvanov.MyTestOssLibrary</PackageId>
     <Description>Library for understanding "Open-source library guidance", https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/index</Description>
-    <Copyright>Copyright (c) 2019 Viacheslav Ivanov</Copyright>
+    <Copyright>Copyright © 2019 Viacheslav Ivanov</Copyright>
     <Version>1.0.0-start</Version>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Test</PackageTags>
