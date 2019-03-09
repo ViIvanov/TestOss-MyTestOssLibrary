@@ -11,7 +11,7 @@
   <PropertyGroup>
     <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageLicenseFile>..\LICENSE.md</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
