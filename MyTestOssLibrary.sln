@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 		.gitignore = .gitignore
 		LICENSE.md = LICENSE.md
 		README.md = README.md
+		Release Notes.md = Release Notes.md
 		Strong Name Key.snk = Strong Name Key.snk
 	EndProjectSection
 EndProject
