@@ -14,19 +14,24 @@
     <PackageLicenseFile></PackageLicenseFile>
     <PackageProjectUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Authors>ViIvanov</Authors>
     <PackageId>ViIvanov.MyTestOssLibrary</PackageId>
     <Description>Library for understanding "Open-source library guidance", https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/index</Description>
     <Copyright>Copyright © 2019 Viacheslav Ivanov</Copyright>
     <Version>1.0.0-start</Version>
-    <RepositoryType>git</RepositoryType>
     <PackageTags>Test</PackageTags>
     <PackageReleaseNotes>1.0.0 - started</PackageReleaseNotes>
     <Product>MyTestOssLibrary</Product>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RepositoryBranch Condition=" '$(RepositoryBranch)' == '' ">$(APPVEYOR_REPO_BRANCH)</RepositoryBranch>
+    <RepositoryCommit Condition=" '$(RepositoryCommit)' == '' ">$(APPVEYOR_REPO_COMMIT)</RepositoryCommit>
   </PropertyGroup>
 
 </Project>
