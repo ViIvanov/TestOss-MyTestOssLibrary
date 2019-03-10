@@ -11,7 +11,7 @@
     <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseFile></PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch Condition=" '$(RepositoryBranch)' == '' ">$(APPVEYOR_REPO_BRANCH)</RepositoryBranch>
