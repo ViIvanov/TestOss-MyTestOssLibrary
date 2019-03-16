@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework Condition=" '$(ExcludeDotNetFramework)' == 'true' ">netstandard2.0</TargetFramework>
@@ -22,7 +22,8 @@
     <PackageId Condition=" '$(Configuration)' != 'Release' ">$(PackageId)-$(Configuration)</PackageId>
     <Description>Library for understanding "Open-source library guidance", https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/index</Description>
     <Copyright>Copyright © 2019 Viacheslav Ivanov</Copyright>
-    <Version>1.0.0-start</Version>
+    <VersionSuffix Condition=" '$(BuildNumber)' != '' ">.$(BuildNumber)</VersionSuffix>
+    <Version>1.0.0$(VersionSuffix)-start</Version>
     <PackageTags>Test</PackageTags>
     <PackageReleaseNotes>1.0.0 - started</PackageReleaseNotes>
     <Product>MyTestOssLibrary</Product>
