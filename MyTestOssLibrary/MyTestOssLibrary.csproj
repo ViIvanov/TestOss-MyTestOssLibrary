@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageProjectUrl></PackageProjectUrl>
@@ -32,7 +32,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionSuffix>-start</VersionSuffix>
+    <VersionSuffix>start</VersionSuffix>
     <VersionSuffix Condition=" '$(BuildNumber)' != '' ">$(VersionSuffix)+build-$(BuildNumber)</VersionSuffix>
     <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
     <PackageId Condition=" '$(Configuration)' != 'Release' ">$(PackageId)-$(Configuration)</PackageId>
