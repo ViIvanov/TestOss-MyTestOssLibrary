@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework Condition=" '$(ExcludeDotNetFramework)' == 'true' ">netstandard2.0</TargetFramework>
@@ -15,7 +15,7 @@
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryBranch Condition=" '$(RepositoryBranch)' == '' ">$(APPVEYOR_REPO_BRANCH)</RepositoryBranch>
+    <RepositoryBranch></RepositoryBranch>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Authors>ViIvanov</Authors>
     <PackageId>ViIvanov.MyTestOssLibrary</PackageId>
