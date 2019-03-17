@@ -12,7 +12,6 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageLicenseUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
