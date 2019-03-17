@@ -37,6 +37,7 @@
     <VersionSuffix Condition=" '$(BuildNumber)' != '' ">$(VersionSuffix)+build-$(BuildNumber)</VersionSuffix>
     <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
     <PackageId Condition=" '$(Configuration)' != 'Release' ">$(PackageId)-$(Configuration)</PackageId>
+    <PackageReleaseNotes>$(PackageReleaseNotes) + Version: "$(Version)"</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
