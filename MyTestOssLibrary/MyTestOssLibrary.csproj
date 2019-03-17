@@ -25,6 +25,7 @@
     <PackageTags>Test</PackageTags>
     <PackageReleaseNotes>0.0.0 - started</PackageReleaseNotes>
     <Product>MyTestOssLibrary</Product>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
