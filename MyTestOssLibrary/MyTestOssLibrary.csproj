@@ -33,7 +33,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionSuffix>start</VersionSuffix>
+    <VersionSuffix>alpha</VersionSuffix>
     <VersionSuffix Condition=" '$(BuildNumber)' != '' ">$(VersionSuffix)+build-$(BuildNumber)</VersionSuffix>
     <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
     <PackageId Condition=" '$(Configuration)' != 'Release' ">$(PackageId)-$(Configuration)</PackageId>
