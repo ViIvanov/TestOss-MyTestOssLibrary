@@ -12,10 +12,10 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageLicenseUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/ViIvanov/TestOss-MyTestOssLibrary</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryBranch></RepositoryBranch>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Authors>ViIvanov</Authors>
     <PackageId>ViIvanov.MyTestOssLibrary</PackageId>
@@ -25,7 +25,6 @@
     <PackageTags>Test</PackageTags>
     <PackageReleaseNotes>0.0.0 - started</PackageReleaseNotes>
     <Product>MyTestOssLibrary</Product>
-    <PackageLicenseUrl></PackageLicenseUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -34,10 +33,9 @@
 
   <PropertyGroup>
     <VersionSuffix>alpha</VersionSuffix>
-    <VersionSuffix Condition=" '$(BuildNumber)' != '' ">$(VersionSuffix)+build-$(BuildNumber)</VersionSuffix>
+    <VersionSuffix Condition=" '$(BuildNumber)' != '' ">$(VersionSuffix)$(BuildNumber)</VersionSuffix>
     <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
     <PackageId Condition=" '$(Configuration)' != 'Release' ">$(PackageId)-$(Configuration)</PackageId>
-    <PackageReleaseNotes>$(PackageReleaseNotes) + Version: "$(Version)"</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
